@@ -134,8 +134,8 @@ Configure how alerts are handled in Microsoft Sentinel:
 
 <details>
 <summary>Screenshot: Rule Creation Confirmation</summary>
+<img width="917" height="459" alt="Review and created" src="https://github.com/user-attachments/assets/d2efff2e-7c3f-40de-ae08-dacc4989120b" />
 
-![Rule Created Placeholder](path/to/screenshot.png)
 
 </details>
 
