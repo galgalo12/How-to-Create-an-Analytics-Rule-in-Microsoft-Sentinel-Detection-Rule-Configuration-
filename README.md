@@ -8,22 +8,13 @@ This project demonstrates how to create a **Scheduled Analytics Rule** in Micros
 
 ---
 
-## Prerequisites
-
-- Access to the [Azure Portal](https://portal.azure.com/)  
-- Microsoft Sentinel workspace configured  
-- Permissions to create analytics rules and automation  
-
----
-
 ## Step 1: Login to Azure Portal 🔑
 
 1. Open [https://portal.azure.com/](https://portal.azure.com/)  
 2. Sign in with your Azure account credentials.
 
 <details>
-<summary>Screenshot: Azure Portal Login</summary>
-
+<img width="737" height="448" alt="ope page " src="https://github.com/user-attachments/assets/5c3c1d2c-5517-46d5-a234-786146ac77f1" />
 
 </details>
 
