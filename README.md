@@ -118,7 +118,7 @@ Configure how alerts are handled in Microsoft Sentinel:
 <details>
 <summary>Screenshot: Automation Rule Creation</summary>
 
-![Automation Placeholder](path/to/screenshot.png)
+<img width="947" height="476" alt="existing " src="https://github.com/user-attachments/assets/119d26e3-5aef-470f-b75a-f3f6a8af11fb" />
 
 </details>
 
