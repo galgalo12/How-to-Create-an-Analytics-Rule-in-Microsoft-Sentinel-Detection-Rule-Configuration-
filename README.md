@@ -1,10 +1,15 @@
 
-# How to Create an Analytics Rule in Microsoft Sentinel
+# Microsoft Sentinel Analytics Rule: Detect Brute-Force Attacks 🔒
 
 [![Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)](https://portal.azure.com/)  
 [![KQL](https://img.shields.io/badge/KQL-0078D4?style=for-the-badge&logo=azure-data-explorer&logoColor=white)](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/)
 
-This project demonstrates how to create a **Scheduled Analytics Rule** in Microsoft Sentinel to detect **potential brute-force attacks** on a monitored account (Adam). The rule uses **KQL queries** to identify repeated failed sign-in attempts and can automatically generate alerts and trigger automated responses.
+This repository demonstrates how to create a **Scheduled Analytics Rule** in **Microsoft Sentinel** designed to proactively detect **potential brute-force login attempts** on a monitored account (e.g., *Adam*).  
+
+Using **Kusto Query Language (KQL)**, the rule analyzes authentication logs to identify repeated failed sign-in attempts, automatically generates alerts, and can trigger **automated response actions** such as notifications or Logic Apps.  
+
+By implementing this rule, SOC teams can **quickly detect, investigate, and respond** to credential-based attacks, improving overall security posture.
+
 
 ---
 
