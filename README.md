@@ -1,0 +1,1 @@
+# How-to-Create-an-Analytics-Rule-in-Microsoft-Sentinel-Detection-Rule-Configuration-
