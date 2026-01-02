@@ -24,7 +24,7 @@ This project demonstrates how to create a **Scheduled Analytics Rule** in Micros
 <details>
 <summary>Screenshot: Azure Portal Login</summary>
 
-![Azure Login Placeholder](path/to/screenshot.png)
+<img width="626" height="281" alt="Genearl " src="https://github.com/user-attachments/assets/86df9639-ceb9-40be-8f40-5b7fb0a391af" />
 
 </details>
 
