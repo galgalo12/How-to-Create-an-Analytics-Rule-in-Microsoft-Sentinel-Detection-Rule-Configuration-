@@ -88,3 +88,64 @@ SigninLogs
       by UserPrincipalName, IPAddress
 | where FailedAttempts >= 5                                  // Threshold for brute-force
 | order by FailedAttempts desc
+```
+## Step 5: Incident Settings 🚨
+
+Configure how alerts are handled in Microsoft Sentinel:
+
+- **Alert Grouping into Incidents** – Combine related alerts into a single incident for easier investigation.  
+- **Generate Incidents** – Choose whether alerts should automatically create incidents in Sentinel.  
+- **Enable Analytics Rule** – Activate the rule to start monitoring and generating alerts.
+
+<details>
+<summary>Screenshot: Incident Settings Tab</summary>
+
+<img width="885" height="333" alt="incident setting" src="https://github.com/user-attachments/assets/bd687216-a9a8-43e4-bbcc-ad3e88bd8f17" />
+
+</details>
+
+---
+
+## Step 6: Automation Response 🤖
+
+1. Navigate to the **Automation** tab.  
+2. Create a new automation rule with the following settings:  
+   - **Name & Description** – Provide a descriptive title for the automation.  
+   - **Trigger** – Select your analytics rule.  
+   - **Actions** – Define automated responses such as sending an **email**, **Teams notification**, or running a **Logic App**.  
+3. **Enable the automation rule** to start automatic responses when the analytics rule triggers.
+
+<details>
+<summary>Screenshot: Automation Rule Creation</summary>
+
+![Automation Placeholder](path/to/screenshot.png)
+
+</details>
+
+> Automation ensures alerts trigger **immediate responses**, helping SOC teams react quickly to potential threats.
+
+---
+
+## Step 7: Review & Create ✅
+
+1. Review all settings configured in the Analytics Rule Wizard.  
+2. Click **Create** to activate the rule.  
+3. The analytics rule is now live and will generate alerts for potential brute-force activity.
+
+<details>
+<summary>Screenshot: Rule Creation Confirmation</summary>
+
+![Rule Created Placeholder](path/to/screenshot.png)
+
+</details>
+
+---
+
+## Summary
+
+This project demonstrates how to:
+
+- Create a **Scheduled Analytics Rule** in Microsoft Sentinel  
+- Configure **KQL detection logic** for failed sign-ins  
+- Set **incident grouping and severity**  
+- Enable **automation responses** for faster SOC action
